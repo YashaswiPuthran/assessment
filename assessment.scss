@@ -4,7 +4,7 @@
 
     &__wrapper {
         display: flex;
-        position: relative;
+        // position: relative;
 
         @media screen and (max-width: 767px) {
             display: block;
@@ -30,7 +30,7 @@
         // top: 195px;
         bottom: 20px;
         background-color: red;
-        width: 35%;
+        width: 70%;
         // left: 129px;
         // padding: 15px 35px;
         text-align: left;
@@ -59,7 +59,7 @@
         bottom: 20px;
         // top: 195px;
         background-color: red;
-        width: 35%;
+        width: 70%;
         // left: 129px;
         // padding: 15px 35px;
         text-align: left;
@@ -87,6 +87,7 @@
         width: 50%;
         color: $white;
         overflow: hidden;
+        position: relative;
 
         @media screen and (max-width: 767px) {
             width: 100%;
@@ -120,3 +121,4 @@
         opacity: 3;
     }
 }
+
